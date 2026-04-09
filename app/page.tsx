@@ -347,7 +347,7 @@ export default function HomePage() {
             </WhiteCard>
 
             <DuoImages
-              leftSrc="/photo/marie.png"
+              leftSrc="/photo/marievert.jpg"
               leftAlt="Portrait studio de comédienne sur fond vert"
               rightSrc="/photo/mariiagris.jpg"
               rightAlt="Portrait studio de comédienne sur fond gris"

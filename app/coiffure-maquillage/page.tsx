@@ -257,10 +257,6 @@ export default function BeautyCastingPage() {
                   tall
                 />
               </div>
-              <ImageCard
-                src="/photo/AAichanoir.jpg"
-                alt="Portrait dramatique avec mise en beauté"
-              />
             </div>
           </section>
 
