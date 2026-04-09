@@ -29,7 +29,7 @@ const heroCarouselImages = [
     alt: "Portrait intense de comédien sur fond rouge",
   },
   {
-    src: "/photo/AAichavert.jpg",
+    src: "/photo/aicha-vert.jpg",
     alt: "Portrait de comédienne sur fond vert",
   },
 ]
