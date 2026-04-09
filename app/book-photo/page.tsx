@@ -28,7 +28,7 @@ const series: SeriesItem[] = [
       "Trois mises en beauté de Yũ pour montrer la palette de jeu, la capacité d’incarnation d’Aicha et les rôles où elle se spécialise.",
     photos: [
       {
-        src: "/photo/AAichavert.jpg",
+        src: "/photo/aicha-vert.jpg",
         alt: "Portrait d’Aicha sur fond vert",
       },
       {
