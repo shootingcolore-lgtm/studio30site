@@ -64,6 +64,27 @@ const series: SeriesItem[] = [
   },
   {
     title: "Série 03",
+    actor: "Selma Ould Braham",
+    roles: "Douceur • Force • Mélancolie",
+    energy:
+      "Selma est une talentueuse comédienne. Ce shooting était le premier depuis plusieurs années. Nous avons travaillé des rôles sensibles légers, puis plus ancrés.",
+    photos: [
+      {
+        src: "/photo/selma1.jpg",
+        alt: "Portrait de Selma sur fond gris",
+      },
+      {
+        src: "/photo/selma2.jpg",
+        alt: "Portrait de Selma sur fond noir",
+      },
+      {
+        src: "/photo/selma3.jpg",
+        alt: "Portrait de Selma sur fond brun",
+      },
+    ],
+  },
+  {
+    title: "Série 04",
     actor: "Guillaume Brismontier",
     roles: "Introverti • Libre • Intime",
     energy:
@@ -84,7 +105,7 @@ const series: SeriesItem[] = [
     ],
   },
   {
-    title: "Série 04",
+    title: "Série 05",
     actor: "Mariia Romanova",
     roles: "Femme forte • Légère • Film d’époque",
     energy:
@@ -105,7 +126,7 @@ const series: SeriesItem[] = [
     ],
   },
   {
-    title: "Série 05",
+    title: "Série 06",
     actor: "Ludovic Chatin",
     roles: "Charisme • Précision du regard • Présence intérieure",
     energy:
@@ -129,7 +150,7 @@ const series: SeriesItem[] = [
     ],
   },
   {
-    title: "Série 06",
+    title: "Série 07",
     actor: "Robin Entreinger",
     roles: "Tension • Magnétisme • Distance",
     energy:
@@ -148,7 +169,7 @@ const series: SeriesItem[] = [
     ],
   },
   {
-    title: "Série 07",
+    title: "Série 08",
     actor: "Aurélie Laffont",
     roles: "Solaire • Intensité • Projection casting",
     energy:
@@ -169,7 +190,7 @@ const series: SeriesItem[] = [
     ],
   },
   {
-    title: "Série 08",
+    title: "Série 09",
     actor: "Fabienne Maillot",
     roles: "Romantique • Intensité • Présence forte et douce",
     energy:
