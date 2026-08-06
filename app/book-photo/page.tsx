@@ -20,6 +20,27 @@ type SeriesItem = {
 }
 
 const series: SeriesItem[] = [
+   {
+    title: "Série CM",
+    actor: "Carla Massie",
+    roles: "Sensuelle • Intime • Naturelle",
+    energy:
+      "Carla voulait un thème sensuel, des couleurs chaudes et une beauté naturelle. On a travaillé sur des tons bruns et une athmosphère intime.",
+    photos: [
+      {
+        src: "/photo/webp/portrait-carla2.webp",
+        alt: "Portrait de jeune femme sur fond brun",
+      },
+      {
+        src: "/photo/webp/portrait-carla3.webp",
+        alt: "Portrait de jeune femme plan taille sur canapé",
+      },
+      {
+        src: "/photo/webp/portrait-carla1.webp",
+        alt: "Portrait de jeune femme de près",
+      },
+    ],
+  },
   {
     title: "Série 01",
     actor: "Aicha Ameddah",
@@ -28,15 +49,15 @@ const series: SeriesItem[] = [
       "Trois mises en beauté de Yũ pour montrer la palette de jeu, la capacité d’incarnation d’Aicha et les rôles où elle se spécialise.",
     photos: [
       {
-        src: "/photo/aicha-vert.jpg",
+        src: "/photo/webp/portrait-aicha-vert.webp",
         alt: "Portrait d’Aicha sur fond vert",
       },
       {
-        src: "/photo/AAichanoir.jpg",
+        src: "/photo/webp/portrait-aicha-noir.webp",
         alt: "Portrait d’Aicha sur fond noir",
       },
       {
-        src: "/photo/AAicharose.jpg",
+        src: "/photo/webp/portrait-aicha-rose.webp",
         alt: "Portrait d’Aicha sur fond rose",
       },
     ],
@@ -49,15 +70,15 @@ const series: SeriesItem[] = [
       "Le point de départ avec Mathieu est l’accessoire d’une barbe, moustache, ou d’un visage rasé de près. La différence est forte et permet d’aller vers des archétypes très différents.",
     photos: [
       {
-        src: "/photo/Mathieubleu.jpg",
+        src: "/photo/webp/portrait-mathieu-noir.webp",
         alt: "Portrait de Mathieu sur fond bleu",
       },
       {
-        src: "/photo/Mathieurose.jpg",
+        src: "/photo/webp/portrait-mathieu-noir2.webp",
         alt: "Portrait de Mathieu sur fond rose",
       },
       {
-        src: "/photo/mathieumous.jpg",
+        src: "/photo/webp/portrait-mathieu-noir3.webp",
         alt: "Portrait de Mathieu avec moustache",
       },
     ],
@@ -70,15 +91,15 @@ const series: SeriesItem[] = [
       "Selma est une talentueuse comédienne. Ce shooting était le premier depuis plusieurs années. Nous avons travaillé des rôles sensibles légers, puis plus ancrés.",
     photos: [
       {
-        src: "/photo/selma1.jpg",
+        src: "/photo/webp/portrait-selma-gris.webp",
         alt: "Portrait de Selma sur fond gris",
       },
       {
-        src: "/photo/selma2.jpg",
+        src: "/photo/webp/portrait-selma-noir.webp",
         alt: "Portrait de Selma sur fond noir",
       },
       {
-        src: "/photo/selma3.jpg",
+        src: "/photo/webp/portrait-selma-brun.webp",
         alt: "Portrait de Selma sur fond brun",
       },
     ],
@@ -91,15 +112,15 @@ const series: SeriesItem[] = [
       "Les photos servent aussi à se découvrir soi-même. Guillaume, rôliste expérimenté, travaille sa voix et son jeu, mais rencontre plus rarement son corps et son image. Ici, elle se déploie.",
     photos: [
       {
-        src: "/photo/Guillaumeblanc.jpg",
+        src: "/photo/webp/portrait-guillaume-1.webp",
         alt: "Portrait de Guillaume sur fond clair",
       },
       {
-        src: "/photo/Guillaumebleu.jpg",
+        src: "/photo/webp/portrait-guillaume-rouge.webp",
         alt: "Portrait de Guillaume sur fond bleu",
       },
       {
-        src: "/photo/Guillaumerouge.jpg",
+        src: "/photo/webp/portrait-guillaume-2.webp",
         alt: "Portrait de Guillaume sur fond rouge",
       },
     ],
@@ -112,15 +133,15 @@ const series: SeriesItem[] = [
       "Trois personnages marqués par des attitudes différentes : l’autorité, la légèreté, puis une femme d’époque axée sur la douceur.",
     photos: [
       {
-        src: "/photo/marriabrun.jpg",
+        src: "/photo/webp/portrait-mariia-brun.webp",
         alt: "Portrait de Mariia aux tons bruns",
       },
       {
-        src: "/photo/mariiagris.jpg",
+        src: "/photo/webp/portrait-mariia-gris2.webp",
         alt: "Portrait de Mariia sur fond gris",
       },
       {
-        src: "/photo/mariianoir.jpg",
+        src: "/photo/webp/portrait-mariia-blanc.webp",
         alt: "Portrait de Mariia sur fond sombre",
       },
     ],
@@ -133,17 +154,17 @@ const series: SeriesItem[] = [
       "Ludovic a joué avec ce qu’il maîtrise le mieux : son regard. Le point de départ était la colère, qui a débouché sur quelque chose de beaucoup plus léger et attractif.",
     photos: [
       {
-        src: "/photo/Ludo1.png",
+        src: "/photo/webp/portrait-ludo1.webp",
         alt: "Portrait de Ludovic 1",
         imgClassName: "object-[50%_20%]",
       },
       {
-        src: "/photo/Ludo2.png",
+        src: "/photo/webp/portrait-ludo3.webp",
         alt: "Portrait de Ludovic 2",
         imgClassName: "object-[50%_20%]",
       },
       {
-        src: "/photo/Ludo3.png",
+        src: "/photo/webp/portrait-ludo2.webp",
         alt: "Portrait de Ludovic 3",
         imgClassName: "object-[50%_50%]",
       },
@@ -157,12 +178,12 @@ const series: SeriesItem[] = [
       "Réalisateur de science-fiction, Robin a travaillé une figure sobre qui joue sur la retenue, le sérieux, mais aussi la rêverie assumée.",
     photos: [
       {
-        src: "/photo/RobinGris.jpg",
+        src: "/photo/webp/portrait-robin1.webp",
         alt: "Portrait de Robin sur fond gris",
         imgClassName: "object-[50%_20%]",
       },
       {
-        src: "/photo/RobinCouleur.jpg",
+        src: "/photo/webp/portrait-robin2.webp",
         alt: "Portrait de Robin en couleur",
         imgClassName: "object-[50%_20%]",
       },
@@ -176,15 +197,15 @@ const series: SeriesItem[] = [
       "Une série pensée pour renforcer les codes de casting cinéma et publicité. Aurélie incarne des rôles de comédie dramatique tout en rayonnant.",
     photos: [
       {
-        src: "/photo/Aurelie1.jpg",
+        src: "/photo/webp/portrait-aurelie1.webp",
         alt: "Portrait d’Aurélie 1",
       },
       {
-        src: "/photo/Aurelie2.jpg",
+        src: "/photo/webp/portrait-aurelie2.webp",
         alt: "Portrait d’Aurélie 2",
       },
       {
-        src: "/photo/Aurelie3.jpg",
+        src: "/photo/webp/portrait-aurelie3.webp",
         alt: "Portrait d’Aurélie 3",
       },
     ],
@@ -197,15 +218,15 @@ const series: SeriesItem[] = [
       "Fabienne a exploré la candeur, la rêverie et le lâcher-prise. Son personnage se rapproche d’une femme idéaliste et passionnée, inspirée par l’univers du Cercle des poètes disparus.",
     photos: [
       {
-        src: "/photo/FabienneNoir.jpg",
+        src: "/photo/webp/portrait-fabienne1.webp",
         alt: "Portrait de Fabienne 1",
       },
       {
-        src: "/photo/FabienneNoir2.jpg",
+        src: "/photo/webp/portrait-fabienne-noir.webp",
         alt: "Portrait de Fabienne 2",
       },
       {
-        src: "/photo/FabienneNoir3.jpg",
+        src: "/photo/webp/portrait-fabienne3.webp",
         alt: "Portrait de Fabienne 3",
       },
     ],

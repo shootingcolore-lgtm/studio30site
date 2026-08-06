@@ -9,27 +9,27 @@ const bookingLink =
 
 const heroCarouselImages = [
   {
-    src: "/photo/home/Bliss1.jpg",
+    src: "/photo/webp/portrait-bliss1.webp",
     alt: "Portrait artistique de musicien pour un book casting",
   },
   {
-    src: "/photo/home/Ba1.jpg",
+    src: "/photo/webp/portrait-baptiste.webp",
     alt: "Portrait duo pour un book photo comédien",
   },
   {
-    src: "/photo/home/Aure1.jpg",
+    src: "/photo/webp/portrait-aureliebleu.webp",
     alt: "Portrait de comédienne en lumière douce",
   },
   {
-    src: "/photo/FabienneNoir.jpg",
+    src: "/photo/webp/portrait-fabienne-noir.webp",
     alt: "Portrait dramatique en studio pour directeurs de casting",
   },
   {
-    src: "/photo/Guillaumerouge.jpg",
+    src: "/photo/webp/portrait-guillaume-rouge.webp",
     alt: "Portrait intense de comédien sur fond rouge",
   },
   {
-    src: "/photo/aicha-vert.jpg",
+    src: "/photo/webp/portrait-aicha-vert.webp",
     alt: "Portrait de comédienne sur fond vert",
   },
 ]
@@ -347,9 +347,9 @@ export default function HomePage() {
             </WhiteCard>
 
             <DuoImages
-              leftSrc="/photo/marievert.jpg"
+              leftSrc="/photo/webp/portrait-marievert.webp"
               leftAlt="Portrait studio de comédienne sur fond vert"
-              rightSrc="/photo/mariiagris.jpg"
+              rightSrc="/photo/webp/portrait-mariiagris.webp"
               rightAlt="Portrait studio de comédienne sur fond gris"
             />
 
@@ -424,9 +424,9 @@ export default function HomePage() {
             </div>
 
             <DuoImages
-              leftSrc="/photo/Ange.jpg"
+              leftSrc="/photo/webp/portrait-ange.webp"
               leftAlt="Portrait artistique de comédien sur fond bleu"
-              rightSrc="/photo/Demon.jpg"
+              rightSrc="/photo/webp/portrait-demon.webp"
               rightAlt="Portrait artistique de comédien sur fond rouge"
             />
 
@@ -472,7 +472,7 @@ export default function HomePage() {
                 <div className="overflow-hidden rounded-[32px]">
                   <div className="aspect-square w-full">
                     <img
-                      src="/photo/home/nawel2.jpg"
+                      src="/photo/webp/portrait-marievert.webp"
                       alt="Portrait de Nawel Temmar"
                       className="h-full w-full object-cover"
                     />
@@ -482,7 +482,7 @@ export default function HomePage() {
                 <div className="overflow-hidden rounded-[32px]">
                   <div className="aspect-square w-full">
                     <img
-                      src="/photo/home/ruthless.jpg"
+                      src="/photo/webp/portrait-ruthless.webp"
                       alt="Portrait éditorial en studio"
                       className="h-full w-full object-cover"
                     />

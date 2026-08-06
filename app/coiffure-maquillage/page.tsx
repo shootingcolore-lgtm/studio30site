@@ -252,7 +252,7 @@ export default function BeautyCastingPage() {
             <div className="grid gap-4 md:grid-cols-2 md:gap-5">
               <div className="md:col-span-2">
                 <ImageCard
-                  src="/photo/mac/helene1.jpg"
+                  src="/photo/webp/portrait-helene.webp"
                   alt="Portrait coiffure maquillage en studio"
                   tall
                 />
