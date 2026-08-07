@@ -472,7 +472,7 @@ export default function HomePage() {
                 <div className="overflow-hidden rounded-[32px]">
                   <div className="aspect-square w-full">
                     <img
-                      src="/photo/webp/portrait-marievert.webp"
+                      src="/photo/webp/portrait-nawel2.webp"
                       alt="Portrait de Nawel Temmar"
                       className="h-full w-full object-cover"
                     />
