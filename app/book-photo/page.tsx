@@ -20,6 +20,27 @@ type SeriesItem = {
 }
 
 const series: SeriesItem[] = [
+  {
+    title: "Série LW",
+    actor: "Léa Wehbe",
+    roles: "Spontanée • Noir&Blanc • Lumière naturelle",
+    energy:
+      "Une série sans retouche ni travail de lumière, le soleil et un reflecteur, un canapé et un tapis en seuls accessoires. Léa a fait le reste.",
+    photos: [
+      {
+        src: "/photo/webp/lea1.webp",
+        alt: "Portrait de jeune femme sur fond brun",
+      },
+      {
+        src: "/photo/webp/lea2.webp",
+        alt: "Portrait de jeune femme plan taille sur canapé",
+      },
+      {
+        src: "/photo/webp/lea3.webp",
+        alt: "Portrait de jeune femme de près",
+      },
+    ],
+  },
    {
     title: "Série CM",
     actor: "Carla Massie",
